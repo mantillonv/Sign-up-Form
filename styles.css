@@ -104,6 +104,8 @@ a {
     flex: 2;
     padding: 20px;
     background-color: #1b1b32;
+    overflow: auto;
+    max-height: 100vh;
 }
 
 form p {
