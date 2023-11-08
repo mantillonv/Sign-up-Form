@@ -1,16 +1,19 @@
 body {
+    display: flex;
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
-    color: #f5f6f7;
-    font-family: Tahoma, sans-serif;
+    color: #d1f7ff;
+    font-family: "Pixelify Sans", sans-serif;
     font-size: 16px;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
+}
+h1 {
+    color: #ff2a6d;
 }
 
 h1, p {
@@ -52,7 +55,10 @@ input, textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
+}
 
+select {
+    cursor: pointer;
 }
 
 input[type="submit"] {
@@ -64,13 +70,17 @@ input[type="submit"] {
     margin-right: auto;
     margin-left: auto;
     font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Pixelify Sans", sans-serif;
     height: 2em;
-    background-color: #3b3b4f;
+    background-color: #0a9cf5;
     border-color: white;
+    cursor: pointer;
 }
 
 input[type="file"] {
     padding: 1px 2px;
+    cursor: pointer;
 }
 
 .inline {
@@ -82,3 +92,21 @@ input[type="file"] {
 a {
     color: #dfdfe2;
 }
+
+.side-content {
+    flex: 1;
+    background-image: url("https://64.media.tumblr.com/43ff1ae84968ffd84606207e9995a78e/tumblr_py4mvbGe6h1tgo74ho1_1280.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+    background-color: #1b1b32;
+}
+
+form p {
+    padding-top: 25vh;
+}
+
